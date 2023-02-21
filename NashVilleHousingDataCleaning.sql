@@ -270,11 +270,11 @@ Select *
 From PortfolioProject.NashvilleHousingData;
 
 
-ALTER TABLE PortfolioProject.NashvilleHousingData -- Data should not be deleted or Altered usually of the original file. You should make a copy and do.
+ALTER TABLE PortfolioProject.NashvilleHousingData -- Data should not be deleted or Altered usually from the original file. You should make a copy and make changes.
 DROP COLUMN OwnerAddress,
 DROP COLUMN TaxDistrict, 
 DROP COLUMN PropertyAddress, 
-DROP COLUMN SaleDate;
+DROP COLUMN SaleDate;=-
 
 
 -----------------------------------------------------------------------------------------------
